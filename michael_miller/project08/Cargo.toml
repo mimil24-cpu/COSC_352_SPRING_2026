@@ -1,0 +1,21 @@
+[package]
+name = "csvprof"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "csvprof"
+path = "src/lib.rs"
+
+[[bin]]
+name = "csvprof"
+path = "src/main.rs"
+
+[[bin]]
+name = "correlate"
+path = "src/correlate.rs"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+csv = "1"
+anyhow = "1"

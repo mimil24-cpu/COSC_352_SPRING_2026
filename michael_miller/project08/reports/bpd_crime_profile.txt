@@ -1,0 +1,119 @@
+=== csvprof: data/bpd_crime.csv ===
+Columns: 13
+
+Column: CrimeDate
+  Type   : Text
+  Count  : 3000
+  Nulls  : 0
+  Unique : 1396
+  Top    : '12/20/2022' (8)
+  Top    : '2/17/2021' (7)
+  Top    : '3/6/2021' (7)
+
+Column: CrimeTime
+  Type   : Text
+  Count  : 3000
+  Nulls  : 0
+  Unique : 1258
+  Top    : '20:19:00' (9)
+  Top    : '11:46:00' (8)
+  Top    : '08:04:00' (7)
+
+Column: CrimeCode
+  Type   : Integer
+  Count  : 3000
+  Nulls  : 0
+  Min    : 1.0
+  Max    : 9.0
+  Mean   : 4.90
+  Median : 5.0
+
+Column: Location
+  Type   : Text
+  Count  : 3000
+  Nulls  : 0
+  Unique : 2576
+  Top    : '9051 N BALTIMORE ST' (4)
+  Top    : '9392 N BALTIMORE ST' (3)
+  Top    : '9871 N BALTIMORE ST' (3)
+
+Column: Description
+  Type   : Text
+  Count  : 3000
+  Nulls  : 0
+  Unique : 9
+  Top    : 'ASSAULT' (352)
+  Top    : 'AGG. ASSAULT' (351)
+  Top    : 'SHOOTING' (339)
+
+Column: Weapon
+  Type   : Text
+  Count  : 3000
+  Nulls  : 0
+  Unique : 4
+  Top    : 'NONE' (775)
+  Top    : 'HANDS' (766)
+  Top    : 'FIREARM' (754)
+
+Column: Post
+  Type   : Integer
+  Count  : 3000
+  Nulls  : 0
+  Min    : 100.0
+  Max    : 900.0
+  Mean   : 498.09
+  Median : 504.0
+
+Column: District
+  Type   : Text
+  Count  : 3000
+  Nulls  : 0
+  Unique : 7
+  Top    : 'EASTERN' (459)
+  Top    : 'WESTERN' (448)
+  Top    : 'CENTRAL' (441)
+
+Column: Neighborhood
+  Type   : Text
+  Count  : 3000
+  Nulls  : 0
+  Unique : 30
+  Top    : 'Homeland' (127)
+  Top    : 'Charles Village' (114)
+  Top    : 'Sandtown-Winchester' (112)
+
+Column: Longitude
+  Type   : Float
+  Count  : 3000
+  Nulls  : 0
+  Min    : -76.599989
+  Max    : -76.300243
+  Mean   : -76.45
+  Median : -76.4472485
+
+Column: Latitude
+  Type   : Float
+  Count  : 3000
+  Nulls  : 0
+  Min    : 39.200051
+  Max    : 39.499912
+  Mean   : 39.35
+  Median : 39.3506315
+
+Column: Premise
+  Type   : Text
+  Count  : 3000
+  Nulls  : 0
+  Unique : 4
+  Top    : 'HOUSE' (777)
+  Top    : 'STREET' (751)
+  Top    : 'STORE' (737)
+
+Column: Total Incidents
+  Type   : Integer
+  Count  : 3000
+  Nulls  : 0
+  Min    : 1.0
+  Max    : 1.0
+  Mean   : 1.00
+  Median : 1.0

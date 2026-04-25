@@ -1,0 +1,153 @@
+=== csvprof: data/311_calls.csv ===
+Columns: 17
+
+Column: SRRecordID
+  Type   : Text
+  Count  : 5000
+  Nulls  : 0
+  Unique : 5000
+  Top    : 'SR-100000' (1)
+  Top    : 'SR-100001' (1)
+  Top    : 'SR-100002' (1)
+
+Column: SRStatus
+  Type   : Text
+  Count  : 5000
+  Nulls  : 0
+  Unique : 3
+  Top    : 'Closed' (1696)
+  Top    : 'Open' (1655)
+  Top    : 'In Progress' (1649)
+
+Column: Method Received
+  Type   : Text
+  Count  : 5000
+  Nulls  : 0
+  Unique : 1
+  Top    : 'Phone' (5000)
+
+Column: ServiceRequest
+  Type   : Text
+  Count  : 5000
+  Nulls  : 0
+  Unique : 10
+  Top    : 'Rat Rubout' (520)
+  Top    : 'Street Light Out' (519)
+  Top    : 'Graffiti' (511)
+
+Column: SRType
+  Type   : Text
+  Count  : 5000
+  Nulls  : 0
+  Unique : 10
+  Top    : 'Rat Rubout Request' (520)
+  Top    : 'Street Light Out Request' (519)
+  Top    : 'Graffiti Request' (511)
+
+Column: SRCreatedDate
+  Type   : Text
+  Count  : 5000
+  Nulls  : 0
+  Unique : 1591
+  Top    : '3/28/2019' (11)
+  Top    : '10/4/2020' (10)
+  Top    : '9/19/2020' (9)
+
+Column: SRUpdatedDate
+  Type   : Text
+  Count  : 5000
+  Nulls  : 0
+  Unique : 1591
+  Top    : '3/28/2019' (11)
+  Top    : '10/4/2020' (10)
+  Top    : '9/19/2020' (9)
+
+Column: SRDueDate
+  Type   : Text
+  Count  : 5000
+  Nulls  : 0
+  Unique : 1591
+  Top    : '3/28/2019' (11)
+  Top    : '10/4/2020' (10)
+  Top    : '9/19/2020' (9)
+
+Column: SRClosedDate
+  Type   : Text
+  Count  : 5000
+  Nulls  : 0
+  Unique : 1591
+  Top    : '3/28/2019' (11)
+  Top    : '10/4/2020' (10)
+  Top    : '9/19/2020' (9)
+
+Column: Neighborhood
+  Type   : Text
+  Count  : 5000
+  Nulls  : 0
+  Unique : 30
+  Top    : 'Roland Park' (188)
+  Top    : 'Oliver' (186)
+  Top    : 'Morrell Park' (184)
+
+Column: District
+  Type   : Text
+  Count  : 5000
+  Nulls  : 0
+  Unique : 7
+  Top    : 'SOUTHERN' (737)
+  Top    : 'NORTHERN' (736)
+  Top    : 'NORTHEASTERN' (730)
+
+Column: CouncilDistrict
+  Type   : Integer
+  Count  : 5000
+  Nulls  : 0
+  Min    : 1.0
+  Max    : 14.0
+  Mean   : 7.50
+  Median : 8.0
+
+Column: PoliceDistrict
+  Type   : Text
+  Count  : 5000
+  Nulls  : 0
+  Unique : 7
+  Top    : 'SOUTHERN' (737)
+  Top    : 'NORTHERN' (736)
+  Top    : 'NORTHEASTERN' (730)
+
+Column: PolicePostCode
+  Type   : Integer
+  Count  : 5000
+  Nulls  : 0
+  Min    : 100.0
+  Max    : 900.0
+  Mean   : 500.62
+  Median : 503.5
+
+Column: Latitude
+  Type   : Float
+  Count  : 5000
+  Nulls  : 0
+  Min    : 39.200021
+  Max    : 39.49992
+  Mean   : 39.35
+  Median : 39.34582399999999
+
+Column: Longitude
+  Type   : Float
+  Count  : 5000
+  Nulls  : 0
+  Min    : -76.599979
+  Max    : -76.300009
+  Mean   : -76.45
+  Median : -76.4459915
+
+Column: Location
+  Type   : Text
+  Count  : 5000
+  Nulls  : 0
+  Unique : 5000
+  Top    : '39.400353, -76.419635' (1)
+  Top    : '39.399888, -76.567703' (1)
+  Top    : '39.485856, -76.500993' (1)
